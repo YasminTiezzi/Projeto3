@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.0.3 (Python 3.9.6 on win32)" generated="20210908 15:14:36.237" rpa="true" schemaversion="2">
+<suite id="s1" name="Settings" source="C:\Users\yasmin.tiezzi\Treinamento-Robot\ProjetoSbk - Copia\settings.robot">
+<test id="s1-t1" name="Tarefa 1:">
+<kw name="ENTRAR NO SITE">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${LINK}</arg>
+<arg>${NAVEGADOR}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20210908 15:14:36.427" level="INFO">Opening browser 'Chrome' to base url 'https://std.gestorjuridico.com.br/Paginas/Principal/_FSet_Abertura.asp'.</msg>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20210908 15:14:40.504" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<status status="PASS" starttime="20210908 15:14:40.503" endtime="20210908 15:14:40.504"/>
+</kw>
+<msg timestamp="20210908 15:14:40.509" level="FAIL">SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 91
+Current browser version is 93.0.4577.63 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+</msg>
+<status status="FAIL" starttime="20210908 15:14:36.427" endtime="20210908 15:14:40.509"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="NOT RUN" starttime="20210908 15:14:40.509" endtime="20210908 15:14:40.509"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${LOGIN}</arg>
+<arg>std.sbk</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20210908 15:14:40.509" endtime="20210908 15:14:40.509"/>
+</kw>
+<kw name="Wait Until Element Is Enabled" library="SeleniumLibrary">
+<arg>${SENHA}</arg>
+<doc>Waits until the element ``locator`` is enabled.</doc>
+<status status="NOT RUN" starttime="20210908 15:14:40.509" endtime="20210908 15:14:40.509"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${SENHA}</arg>
+<arg>1234asdf</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20210908 15:14:40.509" endtime="20210908 15:14:40.509"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${ELEMENT_KEYBOARD}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" starttime="20210908 15:14:40.509" endtime="20210908 15:14:40.509"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>${BUTTON_LOGIN}</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20210908 15:14:40.509" endtime="20210908 15:14:40.509"/>
+</kw>
+<status status="FAIL" starttime="20210908 15:14:36.426" endtime="20210908 15:14:40.509"/>
+</kw>
+<kw name="SELECIONAR UNIDIADE">
+<status status="NOT RUN" starttime="20210908 15:14:40.511" endtime="20210908 15:14:40.511"/>
+</kw>
+<kw name="PROCESSAMENTO DO SISTEMA BUSCAR CASO PADRAO">
+<status status="NOT RUN" starttime="20210908 15:14:40.514" endtime="20210908 15:14:40.514"/>
+</kw>
+<status status="FAIL" starttime="20210908 15:14:36.425" endtime="20210908 15:14:40.516">SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 91
+Current browser version is 93.0.4577.63 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+</status>
+</test>
+<status status="FAIL" starttime="20210908 15:14:36.239" endtime="20210908 15:14:40.518"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tasks</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Settings">Settings</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

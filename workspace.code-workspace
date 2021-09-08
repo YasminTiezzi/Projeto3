@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"robot.variables": {
+			"robot": "C:\\Users\\yasmin.tiezzi\\Treinamento-Robot\\ProjetoSbk - Copia"
+		},
+		"robot.language-server.python": "C:\\Users\\yasmin.tiezzi\\Treinamento-Robot\\ProjetoSbk - Copia\\venv\\Scripts\\python.exe",
+		"robot.lint.robocop.enabled": false	
+}}
